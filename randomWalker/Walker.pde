@@ -20,7 +20,7 @@ public void render(){
  y=height;
  }
 
-stroke(155,0,random(0,255));
+stroke(mouseY,mouseX,random(0,255));
 
 
 rect(x,y,1,1);
